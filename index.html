@@ -8,6 +8,32 @@
     <title>The magic button - Make Everything OK </title>
 </head>
 <body>
-    
+    <div id="main" class="center">
+        <div id="button" onclick="clicked()"></div>
+        <div id="progress" class="center">
+            <div id="bar">
+                <p>Making everything OK is in progress ...</p>
+                <div id="line"></div>
+            </div>
+        </div>
+        <div id="result" class="center">
+            <h1>Everything is OK now.</h1>
+            <p>If everything is still not OK, <br />
+                try checking inside of your mind.</p>
+            <p><button id="retry" onclick="retry()">Retry</button></p>
+        </div>
+
+        <div class="whoamI">
+            <a href="https://github.com/uoayop"><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/></a>
+            <a href="https://velog.io/@uoayop/about"><img src="https://img.shields.io/badge/Velog-11B48A?style=flat&logo=Vimeo&logoColor=white"/></a>
+            <a href="#"><img src="https://img.shields.io/badge/KakaoTalk-757575?style=flat&logo=KakaoTalk&logoColor=white"/></a>
+        </div>
+
+        <div class="origin">
+            <a href="http://make-everything-ok.com/"><img src="https://img.shields.io/badge/Link to OriginSite-757575?style=flat&logo=Apache&logoColor=white"/></a>
+        </div>
+    </div>
+
+    <script src="./logics.js"></script>
 </body>
 </html>
