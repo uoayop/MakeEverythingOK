@@ -24,7 +24,7 @@ body{
 
 
 #button{
-    background: url(../images/button.png) top left no-repeat;
+    background: url(./images/button.png) top left no-repeat;
     width: 453px;
     height: 230px;
     overflow: hidden;
