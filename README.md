@@ -1,6 +1,6 @@
 # MakeEverytingOK
 
-🔗 https://uoayop.github.io/MakeEverytingOK/
+🔗 https://uoayop.github.io/MakeEverythingOK/
 
 ## Stack 🛠
 
